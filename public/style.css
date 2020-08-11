@@ -1,0 +1,61 @@
+/* called by your view template */
+/*
+* {
+  box-sizing: border-box;
+}
+*/
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  background-color: #DDD4B8;
+  height: 100%;
+}
+
+@font-face {
+    font-family: "LinuxLibertineRegular";
+    src: url("https://fontlibrary.org/assets/fonts/linux-libertine/41c74aace28c60327320360d9fca54c0/d772b5b67a27a0c8b2602bdd3fe1dd9f/LinuxLibertineRegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.map-labels {
+  font-family: "LinuxLibertineRegular", Georgia, serif;
+  font-weight: normal; 
+  font-style: normal;
+  color: #ff9635;
+  text-shadow:
+    -2px -2px 3px #000,
+     2px -2px 3px #000,
+    -2px  2px 3px #000,
+     2px  2px 3px #000;
+  white-space: nowrap;
+}
+/*
+h1 {
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  border-radius: 1px;
+}
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+*/
